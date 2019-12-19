@@ -1,4 +1,6 @@
 # CODE_COLLABORATIF
+AUTHORS: François Barbe & Victor Lederer
+
 ENSEMBLE DES CODES POUR LE PROJET DE CODE COLLABORATIF
 
 gfortran -Wall  -pg -g -O0 main.f90 -o run
