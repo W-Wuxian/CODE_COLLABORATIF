@@ -3,7 +3,8 @@ AUTHORS: François Barbe & Victor Lederer
 
 ENSEMBLE DES CODES POUR LE PROJET DE CODE COLLABORATIF
 
-gfortran -Wall  -pg -g -O0 main.f90 -o run
+gfortran -Wall  -pg -g -O0 main.f90 -o run;
+./run;
 gprof -l run gmon.out  > analysis.txt
 
 voir les analysis* des repertoires pour retrouver les résultats du rapport:
